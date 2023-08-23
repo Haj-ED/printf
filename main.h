@@ -13,4 +13,6 @@ int get_width(const char *format, int *i, va_list list);
 int get_precision(const char *format, int *i, va_list list);
 int get_size(const char *format, int *i);
 
+int custom_printf(const char *fmt, ...);
+
 #endif /* MAIN_H */
